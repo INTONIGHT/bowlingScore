@@ -5,4 +5,12 @@
 - an objects type determines the behaviors it has 
 - the reference variable type determins which behaviors can be accessed.
 **Method overloading and method overriding**
-method overriding
+method overriding chaning the implementation of an inheritaed behavior
+@override
+- method overloading multiple implemenations of a single behaciors by changed the number or type of parameters.
+** covariance covariant typing 
+- referencing an instance of a superclass using its subclass (or vice versa)
+```java
+Car c = new Subaru();
+```
+can upcast and change a reference variable.
